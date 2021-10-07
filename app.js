@@ -49,18 +49,3 @@ testimonials.forEach((testimonial) => {
         });
      });
 })
-
-
-// !! Sticky nav
-// const nav = document.querySelector('header');
-// let sticky = nav.getBoundingClientRect().height;
-
-// const navbarScroll = () => {
-//     if (window.pageYOffset >= sticky) {
-//       nav.classList.add('sticky')
-//     } else {
-//       nav.classList.remove('sticky');
-//     }
-//   };
-  
-//   window.onscroll = navbarScroll;
